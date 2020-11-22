@@ -4,21 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp40
+namespace prrr
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double x = 1;
+            Console.WriteLine("Формула y1 = x + y");
+            Console.ReadKey();
+            double x = 0;
             double y = 0;
-            while (y <= 15)
+            while (x <= 10)
             {
-                double y1 = x + y;
-                y = y1;
+               
                 Console.WriteLine("x = " + x);
-                Console.WriteLine("y1 = " + y1);
-                x += 0.2;
+                Console.WriteLine("y = " + y);
+                double y1 = x + y;
+                Console.WriteLine("Результат = " + y1);
+                x += 2;
+                y += 2;
             }
             Console.ReadKey();
         }
