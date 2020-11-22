@@ -12,7 +12,7 @@ namespace prrr
         {
             Console.WriteLine("Формула y1 = x + y");
             Console.ReadKey();
-            double x = 0;
+            double x = 2;
             double y = 0;
             while (x <= 10)
             {
